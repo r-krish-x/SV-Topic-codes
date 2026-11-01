@@ -9,7 +9,6 @@ module FA(in1, in2, cin, sum, cout);
   assign cout = (in1 & in2) | (in1 & cin) | (in2 & cin);
   
 endmodule
-
 ```
 
 # testbench
