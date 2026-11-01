@@ -13,7 +13,8 @@ endmodule
 
 # testbench
 
-```systmeverilog
+```systemverilog
+
 logic end_of_test_flag;
 
 //  ______interface________
