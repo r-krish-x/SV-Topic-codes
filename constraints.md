@@ -84,7 +84,7 @@ class ABC;
            end
            
          endmodule
-       ```        
+```        
 
 ## Inside Constraint
 ```
