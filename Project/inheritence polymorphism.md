@@ -8,7 +8,7 @@ class baseclass;
   
   function new();
     data = 16'hface;
-  endfunction
+  endfunction   
 endclass
 
 class subclass extends baseclass;
