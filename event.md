@@ -174,7 +174,7 @@ endmodule
   higher delay than process_B coz if process_B's delay is more than process_A then event e1 will not
   be executed(line 106).
 
- `task process_A();
+ ```task process_A();
     #10; $display("@%0t: process_A: Before triggering event e1 using ->>", $time);
     ->>e1;
     $display("@%0t: process_A: After triggering event e1 using ->>", $time);
@@ -186,4 +186,5 @@ endmodule
     @(e1);
     //wait(e1.triggered);
     $display("@%0t: process_B: event e1 is triggered", $time);
-  endtask`
+  endtask
+```
