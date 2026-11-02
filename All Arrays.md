@@ -173,7 +173,7 @@ module tb;
 endmodule
 
 
-============= puzzle Example=========
+///============= puzzle Example=========
 
 module tb;
   
